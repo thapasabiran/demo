@@ -1,7 +1,13 @@
 {
   "Post": {
+    "isbn": { "int": { "min": 0, "max": 1000000 } },
     "title": { "string": {} },
-    "likes": { "int": { "min": 0, "max": 1000000 } },
-    "isPublished": { "boolean": {} }
+    "subitle": { "string": {} },
+    "author": { "string": {} },
+    "published": { "string": {} },
+    "publisher": { "string": {} },
+    "pages": {  "int": { "min": 0, "max": 1000000 } },
+    "description": { "string": {} },
+    "website": { "string": {} }
   }
 }
