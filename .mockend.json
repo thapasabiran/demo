@@ -2,15 +2,6 @@
   "Post": {
     "title": { "string": {} },
     "likes": { "int": { "min": 0, "max": 1000000 } },
-    "isPublished": { "boolean": {} },
-    "comments": {
-      "hasMany": "Comment"
-    }
-  },
-  "Comment": {
-    "body": { "string": {} },
-    "post": {
-      "belongsTo": "Post"
-    }
+    "isPublished": { "boolean": {} }
   }
 }
